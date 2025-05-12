@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.firstIntro {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.299), black), url(./masahinalar.webp);
+    background-size: cover;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.firstIntro li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.firstIntro li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.firstIntro .content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.firstIntro .content h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.firstIntro .content p {
+    color: grey;
+    font-size: 20px;
+}
+
+.buttons button {
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.buttons button:hover {
+    border: 1px solid red;
+    background-color: rgba(128, 0, 128, 0.353);
+    color: white;
+    border-top-right-radius: 0px;
+    transition: all 0.5s;
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.131), black), url(./aa.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card-text {
+    width: 100%;
+    height: 70%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text p {
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+.card-text h1 {
+    color: white;
+    text-align: center;
+}
+
+.card:hover h1 {
+    display: none;
+}
+
+.card:hover p {
+    display: block;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    border-radius: 5px;
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
+.card-buttons {
+    width: 100%;
+    height: 30%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-buttons button {
+    width: 120px;
+    padding: 8px, 0;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+.card-buttons button :hover {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    transform: scale(1.03);
+}
+
+.cardlar {
+    background-image: url(./aa.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.364), white), url(./masahinalar.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+    height: 100vh;
+}
+
+.card.card1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.234)), url(./posche.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card.card2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.234)), url(./bmw.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card.card3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.234)), url(./audi.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card.card4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.234)), url(./mers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
